@@ -29,8 +29,7 @@ const ClientReview = ({name,role,image}:Props) => {
                     {role}
                 </p>
                 <p className='text-[16px] text-white opacity-50 w-[90%] md:w-[50%] mx-auto'>
-                    Well well well ab kuch projec to tmila nhi h as such to reviedw m kya hi likhega admi btao, ni btao
-                    wese bhi abhi freelancing to kar nhi rhe h ye to shaukiya ki domain le rakha h to website bna dete h or kya
+                Very impressed with her skills and professionalism. She has a strong understanding of web developement and was able to integrate scim connectors. She was also very communicative throughout the project, keeping me updated on progress and promptly responding to my questions. She delivered the project on time and within budget, and I was very pleased with the final results. Overall.
                 </p>
         </div>
     )

@@ -13,15 +13,16 @@ const About = () => {
                 <div className="mb-[3rem] flex items-center md:space-x-10">
                     <span className="w-[100px] hidden md:block h-[5px] bg-slate-400 rounded-sm"></span>
                     <p className="text-[19px] text-slate-300 w-[88%]">
-                        O mai nikla gaddi leke raste pe  fir sadak pe . ek mod aaya 
-                        sdf ed cmmmc gsdg ewesd plsdif lksersdv fxcxs dfd cmasdf s
+                    Tech enthusiast looking for a position where my
+potential will be fully discovered while working
+for the company dedicatedly.
                     </p>
                 </div>
-                <button className="px-[2rem] hover:bg-yellow-400 transition-all duration-200 py-[1rem] text-[18px]
+                {/* <button className="px-[2rem] hover:bg-yellow-400 transition-all duration-200 py-[1rem] text-[18px]
                     font-bold uppercase bg-[#55e6a5] text-black flex items-center space-x-2">
                             <p>Download CV</p>
                             <ArrowDownTrayIcon className="w-[1.6rem] h-[1.7rem] text-black" />
-                        </button>
+                        </button> */}
             </div>
             <div data-aos='fade-left' className="lg:w-[500px] mx-auto md:mx-0 mt-[2rem] lg:mt-0 lg:h-[500px] w-[300px] h-[300px] relative">
                 <Image src ="/images/about.jpg" alt="user" layout="fill" objectFit="contain" className="relative z-[11] 
