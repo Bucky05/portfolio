@@ -3,8 +3,18 @@ import Particle from './Particle';
 import TextEffect from './TextEffect';
 import Image from 'next/image'
 import { ArrowDownTrayIcon, PlayCircleIcon } from '@heroicons/react/20/solid';
+import config from '@/config/config'
 
 const Hero = () => {
+
+    const handleDownloadClick = () => {
+        const cvLink = config.cvLink
+        const link = document.createElement('a') // its and anchor tag
+        link.href = cvLink
+        link.click()
+        link.remove()
+        return 
+    }
     return (
         <div className="h-[88vh] bg-[url('/images/banner.jpg')] mt-[10vh] bg-cover bg-center">
             <Particle />
@@ -15,11 +25,13 @@ const Hero = () => {
                     </h1>
                     <TextEffect />
                     <p className='mt-[1.5rem] text-[18px] text-[#ffffff92]'>
-                        Well tame ekla cholo gadi te hansi bol le o m kya pehchaniya , asdfasdfcvadf dfdm ty ocht hu m shamo subah isse zada tuhe or chahu bhi tho kya
+                        
+A motivated individual, determined to improve skills and gain experience in software development. Passionate about enhancing problem solving skills. Expecting to be exposed to environment which can help achieve my goals.
+
 
                     </p>
                     <div className="mt-[2rem] flex-col space-y-6 sm:space-y-0 sm:flex sm:flex-row items-center sm:space-x-6" >
-                        <button className="px-[2rem] hover:bg-yellow-400 transition-all duration-200 py-[1rem] text-[18px]
+                        <button onClick={handleDownloadClick} className="px-[2rem] hover:bg-yellow-400 transition-all duration-200 py-[1rem] text-[18px]
                     font-bold uppercase bg-[#55e6a5] text-black flex items-center space-x-2">
                             <p>Download CV</p>
                             <ArrowDownTrayIcon className="w-[1.6rem] h-[1.7rem] text-black" />

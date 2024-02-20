@@ -10,6 +10,7 @@ import Testimonials from '@/Components/Testimonials';
 import Blog from '@/Components/Blog';
 import Footer from '@/Components/Footer';
 import AOS from 'aos';
+import { Element } from 'react-scroll';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 const HomePage = () => {
 
@@ -53,13 +54,28 @@ const HomePage = () => {
      
       <Hero/>
       <div className="relative z-[30]"></div>
+    
+    <Element name = 'about' id ='about'>
     <About/>
+    </Element>
+    <Element name = 'services' id ='services'>
     <Services/>
+    </Element>
+    <Element name = 'skills' id ='skills'>
     <Skills/>
+    </Element>
+    <Element name = 'projects' id ='projects'>
     <Projects/>
+    </Element>
+    <Element name = 'testimonials' id ='testimonials'>
     <Testimonials/>
+    </Element>
+    <Element name = 'blog' id ='blog'>
     <Blog/>
+    </Element>
+    <Element name = 'contact us' id ='contact us'>
     <Footer/>
+    </Element>
     </div>
   </div>
   );

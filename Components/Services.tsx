@@ -16,8 +16,8 @@ const Services = () => {
                     Frontend
                 </h1>
                 <p className="text-[15px] text-[#d3d2d2] font-normal">
-                    Rama rama ratte ratte beeti re umariya , raghukul nandan kab ayenge
-                    raghukul nandan kab ayenge udaseen ki jhupadiyaaa rama rama ratte ratte
+                Breathing life into the front-end. I bring your design vision 
+                to life with dynamic interactions, animations, and seamless user experiences.
                 </p>
             </div>
             </div>
@@ -29,8 +29,8 @@ const Services = () => {
                     Backend
                 </h1>
                 <p className="text-[15px] text-[#d3d2d2] font-normal">
-                    Rama rama ratte ratte beeti re umariya , raghukul nandan kab ayenge
-                    raghukul nandan kab ayenge udaseen ki jhupadiyaaa rama rama ratte ratte
+                Building the invisible foundation. I create robust, scalable backends 
+                that power seamless user experiences and secure data management.
                 </p>
             </div>
             </div>
@@ -42,8 +42,8 @@ const Services = () => {
                     FullStack
                 </h1>
                 <p className="text-[15px] text-[#d3d2d2] font-normal">
-                    Rama rama ratte ratte beeti re umariya , raghukul nandan kab ayenge
-                    raghukul nandan kab ayenge udaseen ki jhupadiyaaa rama rama ratte ratte
+                Bridging the front-end and back-end divide. I craft seamless web experiences, 
+                architecting robust backends and bringing them to life with elegant user interfaces.
                 </p>
             </div>
             </div>
