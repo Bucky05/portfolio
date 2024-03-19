@@ -4,6 +4,7 @@ import TextEffect from './TextEffect';
 import Image from 'next/image'
 import { ArrowDownTrayIcon, PlayCircleIcon } from '@heroicons/react/20/solid';
 import config from '@/config/config'
+import profilePic from '../public/images/u1.jpg'
 
 const Hero = () => {
 
@@ -21,7 +22,7 @@ const Hero = () => {
             <div className="w-[80%] grid-cols-1 mx-auto grid lg:grid-cols-2 gap-[3rem] h-[100%] items-center">
                 <div>
                     <h1 className="text-[35px] md:text-[50px] text-white font-bold">
-                        Hi, I'M <span className="text-yellow-400">AISH!</span>
+                        Hi, I&apos;M <span className="text-yellow-400">AISH!</span>
                     </h1>
                     <TextEffect />
                     <p className='mt-[1.5rem] text-[18px] text-[#ffffff92]'>
@@ -44,7 +45,7 @@ A motivated individual, determined to improve skills and gain experience in soft
                     </div>
                 </div>
                 <div  className='w-[500px] hidden bg-[#55e6a5] relative lg:flex items-center rounded-full h-[500px]'>
-                    <Image src="/images/u1.jpg" alt="user" layout="fill" className="object-cover rounded-full" />
+                    <Image src={profilePic} alt="user" layout="fill" className="object-cover rounded-full" />
                 </div>
             </div>
         </div>

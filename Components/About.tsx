@@ -1,6 +1,7 @@
 import { ArrowDownTrayIcon } from "@heroicons/react/20/solid";
 import React from "react"
 import Image from 'next/image'
+import about from '../public/images/about.jpg'
 
 const About = () => {
     return <div className="bg-[#121121] pb-[3rem] pl-[8rem] pt-[4rem] md:pt-[8rem]">
@@ -25,7 +26,7 @@ for the company dedicatedly.
                         </button> */}
             </div>
             <div data-aos='fade-left' className="lg:w-[500px] mx-auto md:mx-0 mt-[2rem] lg:mt-0 lg:h-[500px] w-[300px] h-[300px] relative">
-                <Image src ="/images/about.jpg" alt="user" layout="fill" objectFit="contain" className="relative z-[11] 
+                <Image src ={about} alt="user" layout="fill" objectFit="contain" className="relative z-[11] 
                 w-[100%] h-[100%] object-contain"/>
                 <div className="absolute w-[93%] h-[105%] z-[10] bg-[#55e6a5] top-[-2rem] right-[-1rem]"></div>
             </div>

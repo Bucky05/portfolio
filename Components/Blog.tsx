@@ -1,6 +1,7 @@
 import { ChatBubbleLeftRightIcon, UserCircleIcon } from '@heroicons/react/20/solid'
 import Image from 'next/image'
 import React from 'react'
+import blog1 from '../public/images/blog1.jpg'
 
 const Blog = () => {
     return (
@@ -13,7 +14,7 @@ const Blog = () => {
             <div className='grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 mt-[4rem] gap-[3rem] w-[80%] mx-auto'>
                 <div>
                     <div className='w-[100%] relative h-[400px]'>
-                        <Image src='/images/blog1.jpg'
+                        <Image src={blog1}
                                 alt = 'blog'
                                 layout='fill'
                                 className='object-cover'
@@ -38,7 +39,7 @@ const Blog = () => {
                 </div>
                 <div>
                     <div className='w-[100%] relative h-[400px]'>
-                        <Image src='/images/blog2.jpg'
+                        <Image src={blog1}
                                 alt = 'blog'
                                 layout='fill'
                                 className='object-cover'
@@ -63,7 +64,7 @@ const Blog = () => {
                 </div>
                 <div>
                     <div className='w-[100%] relative h-[400px]'>
-                        <Image src='/images/blog3.jpg'
+                        <Image src={blog1}
                                 alt = 'blog'
                                 layout='fill'
                                 className='object-cover'

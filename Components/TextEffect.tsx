@@ -1,6 +1,6 @@
 import { TypeAnimation } from 'react-type-animation';
 
-export default  () => {
+const TextEffect = () => {
   return (
     <TypeAnimation
       sequence={[
@@ -21,3 +21,5 @@ export default  () => {
     />
   );
 };
+
+export default TextEffect

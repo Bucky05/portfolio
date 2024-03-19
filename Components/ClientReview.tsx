@@ -1,9 +1,9 @@
 import { StarIcon } from '@heroicons/react/20/solid'
-import Image from 'next/image'
+import Image, { StaticImageData } from 'next/image'
 import React from 'react'
 
 interface Props {
-    image : string
+    image : StaticImageData
     role:string
     name:string
 }
