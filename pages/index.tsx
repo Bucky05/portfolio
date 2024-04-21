@@ -51,28 +51,29 @@ const HomePage = () => {
       <MobileNav nav={nav} closeNav={closeNav}/>
       <Nav openNav={openNav}/>
 
-     
+     <Element name = 'home' id ='home'>
       <Hero/>
+      </Element>
       <div className="relative z-[30]"></div>
     
-    <Element name = 'about' id ='about'>
+    {/* <Element name = 'about' id ='about'>
     <About/>
-    </Element>
+    </Element> */}
     <Element name = 'services' id ='services'>
     <Services/>
     </Element>
-    <Element name = 'skills' id ='skills'>
+ 
     <Skills/>
-    </Element>
+
     <Element name = 'projects' id ='projects'>
     <Projects/>
     </Element>
-    <Element name = 'testimonials' id ='testimonials'>
+    {/* <Element name = 'testimonials' id ='testimonials'>
     <Testimonials/>
-    </Element>
-    <Element name = 'blog' id ='blog'>
+    </Element> */}
+    {/* <Element name = 'blog' id ='blog'>
     <Blog/>
-    </Element>
+    </Element> */}
     <Element name = 'contact us' id ='contact us'>
     <Footer/>
     </Element>

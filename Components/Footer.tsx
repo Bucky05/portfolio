@@ -13,7 +13,7 @@ const Footer = () => {
                     </div>
                     <div>
                         <h1 className='text-[25px] mb-[0.2rem] font-semibold text-[white]'>Address</h1>
-                        <p className='text-[17px] w-[90%] text-white opacity-60'>Aage jake right</p>
+                        <p className='text-[17px] w-[90%] text-white opacity-60'>Jaipur Rajasthan</p>
                     </div>
                 </div>
                 <div className='flex items-center space-x-6'>
@@ -24,7 +24,7 @@ const Footer = () => {
                     <div>
                         <h1 className='text-[25px] mb-[0.2rem] font-semibold text-[white]'>Mobile</h1>
                         <p className='text-[17px] w-[90%] text-white opacity-60'>
-                            +876543456789<br/>+567890234
+                            7725946209
                         </p>
                     </div>
                 </div>
@@ -42,17 +42,17 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div className='w-[80%] mt-[2rem] mx-auto grid grid-cols-1 md:grid-cols-2 items-center justify-between'>
+            {/* <div className='w-[80%] mt-[2rem] mx-auto grid grid-cols-1 md:grid-cols-2 items-center justify-between'>
                 <div className='text-[16px] mb-[2rem] md:mb-0  text-white opacity-20'>
                     Webdev warriors 2023 | All Rights Reserved
-                </div>
+                </div> 
             <div className='flex items-center space-x-10'>
                 <p className='text-[16px] text-white opacity-20'>Terms & Condition</p>
                 <p className='text-[16px] text-white opacity-20'>Privacy Policy</p>
                 <p className='text-[16px] text-white opacity-20'>Sitemap</p>
                 
             </div>
-            </div>
+            </div> */}
         </div>
     )
 }

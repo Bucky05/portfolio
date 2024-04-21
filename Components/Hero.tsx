@@ -21,7 +21,7 @@ const Hero = () => {
             <div className="w-[80%] grid-cols-1 mx-auto grid lg:grid-cols-2 gap-[3rem] h-[100%] items-center">
                 <div>
                     <h1 className="text-[35px] md:text-[50px] text-white font-bold">
-                        Hi, I'M <span className="text-yellow-400">ANIRUDH!</span>
+                       Hi, I&apos;M<span className="text-yellow-400">ANIRUDH!</span>
                     </h1>
                     <TextEffect />
                     <p className='mt-[1.5rem] text-[18px] text-[#ffffff92]'>
@@ -36,10 +36,10 @@ A motivated individual, determined to improve skills and gain experience in soft
                             <p>Download CV</p>
                             <ArrowDownTrayIcon className="w-[1.6rem] h-[1.7rem] text-black" />
                         </button>
-                        <button className="flex items-center space-x-2">
+                        {/* <button className="flex items-center space-x-2">
                             <PlayCircleIcon className="w-[4rem] h-[4rem] hover:text-yellow-400 transition-all duration-200 text-[#55e6a5]" />
                             <p className="text-[20px] font-semibold text-white">Watch the Video</p>
-                        </button>
+                        </button> */}
 
                     </div>
                 </div>
