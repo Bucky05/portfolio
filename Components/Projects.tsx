@@ -10,15 +10,15 @@ const Projects = () => {
             <div className="w-[80%] pt-[2rem] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[2rem]">
                 <div data-aos='fade-up'>
                     <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relatvie w-[100%] h-[200px] md:h-[300px]">
-                        <Image src="/images/redditss2.jpg" alt="portfolio" layout="fill" className="object-contain"/>
+                       <a href='https://github.com/Bucky05/node-reddit-clone' target='_blank'> <Image src="/images/redditss2.jpg" alt="portfolio" layout="fill" className="object-contain"/></a>
                     </div>
                 </div>
                 <div data-aos='fade-up' data-aos-delay='300'> 
                     <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relatvie w-[100%] h-[200px] md:h-[300px]">
-                        <Image src="/images/p2.jpg" alt="portfolio" layout="fill" className="object-contain"/>
+                      <a href='https://github.com/Bucky05/Smart-Plantation-System' target='_blank'>  <Image src="/images/iotImage.jpg" alt="portfolio" layout="fill" className="object-contain"/></a>
                     </div>
                 </div>
-                <div data-aos='fade-up' data-aos-delay='600'>
+                {/* <div data-aos='fade-up' data-aos-delay='600'>
                     <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relatvie w-[100%] h-[200px] md:h-[300px]">
                         <Image src="/images/p3.jpg" alt="portfolio" layout="fill" className="object-contain"/>
                     </div>
@@ -37,7 +37,7 @@ const Projects = () => {
                     <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relatvie w-[100%] h-[200px] md:h-[300px]">
                         <Image src="/images/p2.jpg" alt="portfolio" layout="fill" className="object-contain"/>
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
     )

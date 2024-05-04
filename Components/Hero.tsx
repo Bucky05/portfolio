@@ -11,6 +11,7 @@ const Hero = () => {
         const cvLink = config.cvLink
         const link = document.createElement('a') // its and anchor tag
         link.href = cvLink
+        link.target = "_blank"
         link.click()
         link.remove()
         return 
@@ -21,7 +22,7 @@ const Hero = () => {
             <div className="w-[80%] grid-cols-1 mx-auto grid lg:grid-cols-2 gap-[3rem] h-[100%] items-center">
                 <div>
                     <h1 className="text-[35px] md:text-[50px] text-white font-bold">
-                       Hi, I&apos;M<span className="text-yellow-400">ANIRUDH!</span>
+                       Hi, I&apos;M<span className="text-yellow-400"> ANIRUDH!</span>
                     </h1>
                     <TextEffect />
                     <p className='mt-[1.5rem] text-[18px] text-[#ffffff92]'>
