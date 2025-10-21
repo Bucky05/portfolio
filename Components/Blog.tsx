@@ -15,7 +15,8 @@ const Blog = () => {
                     <div className='w-[100%] relative h-[400px]'>
                         <Image src='/images/blog1.jpg'
                                 alt = 'blog'
-                                layout='fill'
+                               fill 
+  style={{ objectFit: "cover" }} 
                                 className='object-cover'
                                 />
                     </div>
@@ -40,7 +41,8 @@ const Blog = () => {
                     <div className='w-[100%] relative h-[400px]'>
                         <Image src='/images/blog2.jpg'
                                 alt = 'blog'
-                                layout='fill'
+                               fill 
+  style={{ objectFit: "cover" }} 
                                 className='object-cover'
                                 />
                     </div>
@@ -65,7 +67,8 @@ const Blog = () => {
                     <div className='w-[100%] relative h-[400px]'>
                         <Image src='/images/blog3.jpg'
                                 alt = 'blog'
-                                layout='fill'
+                               fill 
+  style={{ objectFit: "cover" }} 
                                 className='object-cover'
                                 />
                     </div>

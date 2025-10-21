@@ -26,8 +26,7 @@ const Hero = () => {
                     </h1>
                     <TextEffect />
                     <p className='mt-[1.5rem] text-[18px] text-[#ffffff92]'>
-                        
-A motivated individual, determined to improve skills and gain experience in software development. Passionate about enhancing problem solving skills. Expecting to be exposed to environment which can help achieve my goals.
+                        A motivated software developer with 3 years of experience, eager to continuously enhance technical and problem-solving skills. Passionate about software architecture and seeking opportunities to design and build real-world solutions in dynamic development environments.
 
 
                     </p>
@@ -45,7 +44,8 @@ A motivated individual, determined to improve skills and gain experience in soft
                     </div>
                 </div>
                 <div  className='w-[500px] hidden bg-[#55e6a5] relative lg:flex items-center rounded-full h-[500px]'>
-                    <Image src="/images/u1.jpg" alt="user" layout="fill" className="object-cover rounded-full" />
+                    <Image src="/images/u1.jpg" alt="user" fill 
+  style={{ objectFit: "cover" }}  className="object-cover rounded-full" />
                 </div>
             </div>
         </div>

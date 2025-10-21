@@ -59,15 +59,17 @@ const HomePage = () => {
     {/* <Element name = 'about' id ='about'>
     <About/>
     </Element> */}
+    <Element name = 'projects' id ='projects'>
+    <Projects/>
+    </Element>
+        <Skills/>
     <Element name = 'services' id ='services'>
     <Services/>
     </Element>
  
-    <Skills/>
 
-    <Element name = 'projects' id ='projects'>
-    <Projects/>
-    </Element>
+
+    
     {/* <Element name = 'testimonials' id ='testimonials'>
     <Testimonials/>
     </Element> */}

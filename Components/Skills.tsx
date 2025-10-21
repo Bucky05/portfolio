@@ -11,16 +11,16 @@ const Skills = () => {
                 
                 <div className="w-[80%] mx-auto pt-[4rem] md:pt-[8rem] grid grid-cols-1 md:grid-cols-2 gap-[2rem] items-center">
                     <div>
-                        <SkillsItem title="Angular Developer" year="2023 - Present" description = "Utilized design concepts to develop and implement intuitive web applications as an Associate Software Engineer and Associate Software Intern at Robomq, ensuring seamless functionality and bug-free performance."/>
+                        <SkillsItem title="Software Engineer" year="Apr 2025 - Present" description = "Leveraged various authentication mechanisms such as Single Sign-On (SSO), JSON Web Tokens (JWT), and JavaScript widgets to design and implement secure APIs. Utilized React, Go, and Node.js to build scalable and efficient web applications."/>
                     </div>
                     <div>
-                        <SkillsItem title="NodeJS Developer" year="2023 - Present" description = "Applied Node.js framework along with MySQL database integration to bring designs to life, crafting fluent and bug-free web applications as an Associate Software Engineer and Associate Software Intern at Robomq."/>
+                        <SkillsItem title="Associate Software Engineer" year="Jan 2023 - Apr 2025" description = "As a Full Stack Developer, I leveraged my expertise in Angular, Node.js, and MySQL to design and develop scalable web applications, debug complex issues, and mentor junior developers, ensuring high-quality code and efficient project delivery."/>
                     </div>
                     <div>
-                        <SkillsItem title="Android Developer" year="2021 -2021" description='During my summer internship at Climbax Entertainment, I served as an Android Developer Intern, where I collaborated with the team to create application pages in alignment with customer design requirements. Additionally, I implemented an authentication system to enhance security and user experience and integrated IOT for an smart home project'/>
+                        <SkillsItem title="Android Developer" year="July 2021 - Aug 2021" description='During my summer internship at Climbax Entertainment, I served as an Android Developer Intern, where I collaborated with the team to create application pages in alignment with customer design requirements. Additionally, I implemented an authentication system to enhance security and user experience and integrated IOT for an smart home project'/>
                     </div>
                     <div>
-                        <SkillsItem title="BTech" year="2019 -2023" description="Graduated with a Bachelor's degree in Computer Science and Engineering, actively engaging in various projects that facilitated continuous learning and exploration of cutting-edge technologies. Contributed to a startup venture, fostering enduring relationships with dedicated peers, while maintaining a commendable 7.5 CGPA"/>
+                        <SkillsItem title="BTech" year="July 2019 - Mar 2023" description="Graduated with a Bachelor's degree in Computer Science and Engineering, actively engaging in various projects that facilitated continuous learning and exploration of cutting-edge technologies. Contributed to a startup venture, fostering enduring relationships with dedicated peers."/>
                     </div>
                 </div>
            </div>
