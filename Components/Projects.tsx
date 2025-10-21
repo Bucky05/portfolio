@@ -1,5 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
+import config from '@/config/config'
+const nodeProjectDemoLink = config.nodeProjectDemoLink
 
 const Projects = () => {
     return (
@@ -16,7 +18,7 @@ const Projects = () => {
                 </div>
                 <div data-aos='fade-up'>
                     <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relatvie w-[100%] h-[200px] md:h-[300px]">
-                       <a href='https://www.loom.com/share/cc4423159deb40fabdf3fb6643cff847?sid=f19a5e03-afa6-4c73-9c84-c92ae5ec4dc6' target='_blank'> <Image src="/images/redditss.JPG" alt="Reddit" fill 
+                       <a href={nodeProjectDemoLink} target='_blank'> <Image src="/images/redditss.JPG" alt="Reddit" fill 
   style={{ objectFit: "cover" }}  className="object-contain"/></a>
                     </div>
                 </div>
