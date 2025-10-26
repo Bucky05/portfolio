@@ -22,13 +22,25 @@ const Projects = () => {
   style={{ objectFit: "cover" }}  className="object-contain"/></a>
                     </div>
                 </div>
+               
                 <div data-aos='fade-up' data-aos-delay='300'> 
+                    <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relatvie w-[100%] h-[200px] md:h-[300px]">
+                      <a href='https://www.loom.com/share/262ab078dd66435eb0f7dd4821f5fbd9' target='_blank'>  <Image src="/images/aiExpenseTracker.jpg" alt="AI Expense Tracker" fill 
+  style={{ objectFit: "cover" }}  className="object-contain"/></a>
+                    </div>
+                </div>
+                 <div data-aos='fade-up' data-aos-delay='300'> 
+                    <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relatvie w-[100%] h-[200px] md:h-[300px]">
+                      <a href='https://anirudhrathore.com/Anirudh/URLShortner.mp4' target='_blank'>  <Image src="/images/urlShortner.jpg" alt="URL Shortner" fill 
+  style={{ objectFit: "cover" }}  className="object-contain"/></a>
+                    </div>
+                </div>
+                 <div data-aos='fade-up' data-aos-delay='300'> 
                     <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relatvie w-[100%] h-[200px] md:h-[300px]">
                       <a href='https://github.com/Bucky05/Smart-Plantation-System' target='_blank'>  <Image src="/images/smaart.jpg" alt="Smart Plantation System" fill 
   style={{ objectFit: "cover" }}  className="object-contain"/></a>
                     </div>
                 </div>
-                
                 {/* <div data-aos='fade-up' data-aos-delay='600'>
                     <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relatvie w-[100%] h-[200px] md:h-[300px]">
                         <Image src="/images/p3.jpg" alt="portfolio" fill 
