@@ -13,7 +13,7 @@ const Skills = () => {
   <div>
     <SkillsItem
       title="Software Engineer"
-      year="Apr 2025 - Present"
+      year="Apr 2025 - Mar 2026"
       description="Leveraged various authentication mechanisms such as Single Sign-On (SSO), JSON Web Tokens (JWT), and JavaScript widgets to design and implement secure APIs. Utilized React, Go, and Node.js to build scalable and efficient web applications."
     />
   </div>
