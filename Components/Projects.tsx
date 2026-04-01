@@ -1,9 +1,27 @@
+"use client";
 import Image from 'next/image'
 import React from 'react'
-import config from '@/config/config'
-import { projectsData } from '@/data/projectsData'
+import { useEffect, useState } from "react";
+
+  
+interface Project {
+  link: string;
+  image: string;
+  name: string;
+}
 
 const Projects = () => {
+  const [projectsData, setProjects] = useState<Project[]>([]);
+
+  useEffect(() => {
+  fetch("https://anirudhrathore.com/data/projectsData.json")
+    .then((res) => res.json())
+    .then((data) => {
+      console.log(data); // debug
+      setProjects(data.projectsData); // ✅ correct
+    })
+    .catch((err) => console.error(err));
+}, []);
   return (
     <div className="bg-[#02050a] pt-[4rem] md:pt-[8rem] pb-[1rem]">
       <h1 className="heading">
